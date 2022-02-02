@@ -20,11 +20,23 @@ width: 100px;
 }
 .nav {
   grid-area: n;
-  background-color: rgb(6, 95, 168);
+  background-color: rgb(6, 168, 92);
+}
+
+.content {
+  grid-area: d;
+  background-color: rgba(88, 182, 51, 0.822);
+}
+
+.app-wrapper-content {
+    grid-area: d;
+    background-color: rgba(211, 29, 105, 0.822);
+
+
+    
 }
 
 .content {
   grid-area: d;
   background-color: rgba(29, 62, 211, 0.822);
 }
-
